@@ -8,3 +8,7 @@ for s in students:
     s= s.lower()
     students2.append(s)
 print(students2)
+
+emails= {s:f"{s.lower().replace(" ",".")}@uop.edu.jo" 
+            for s in students}
+print(emails)
