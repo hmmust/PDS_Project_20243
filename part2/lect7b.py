@@ -1,0 +1,11 @@
+import numpy as np
+arr1 = np.zeros(5)
+print(arr1)
+arr2= np.zeros((5,5))
+print(arr2)
+arr3= np.ones((5,5))
+print(arr3)
+arr4= np.eye(5)
+print(arr4)
+arr5= np.eye(5,10)
+print(arr5)
